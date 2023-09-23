@@ -66,13 +66,50 @@ h6 {
     isolation: isolate;
 }
 
-
-
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
+/* General styling */
+body {
+    background-color: var(--clr-light-gray);
+    font-family: var(--font-family);
+    display: grid;
+    place-content: center;
+    margin: 2rem;
 }
-    
-.attribution a {
-    color: hsl(228, 45%, 44%);
-} */
+
+/* Card styling */
+.card {
+    background-color: var(--clr-white);
+    text-align: center;
+    border-radius: 1rem;
+    width: 300px;
+    margin: 50px 0;
+    padding: 1.125rem;
+}
+
+.qr-image {
+    border-radius: 0.7rem;
+}
+
+.card-info {
+    margin: 20px 0;;
+}
+
+.card-title {
+    color: var(--clr-dark-blue);
+    font-size: 1.25rem;
+    font-weight: var(--fw-bold);
+    line-height: normal;
+    margin: 0 0 16px;
+}
+
+.card-instructions {
+    color: var(--clr-grayish-blue);
+    font-size: 0.938rem;
+    font-weight: var(--fw-regular);
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
